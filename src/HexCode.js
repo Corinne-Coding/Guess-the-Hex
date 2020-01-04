@@ -1,11 +1,11 @@
 import React from "react";
 
 function HexCode(props) {
-  const { codes, codeToFind } = props;
+  const {  codeToFind } = props;
 
   return (
     <div className="hex-code">
-      <span>{codes[codeToFind]}</span>
+      <span>{codeToFind}</span>
     </div>
   );
 }
