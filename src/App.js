@@ -65,6 +65,7 @@ function App() {
         uppercase={true}
         mb={50}
         mt={10}
+        ml={20}
       />
       {codes && <HexCode codeToFind={codeToFind} />}
       <div className="row">
@@ -81,6 +82,7 @@ function App() {
           uppercase={true}
           mb={60}
           mt={20}
+          ml={0}
         />
       </div>
       <div className="center">
@@ -91,6 +93,7 @@ function App() {
           uppercase={true}
           mb={30}
           mt={0}
+          ml={0}
           numberLevels={numberLevels}
           level={level}
           setLevel={setLevel}
@@ -104,6 +107,7 @@ function App() {
           uppercase={false}
           mb={30}
           mt={0}
+          ml={0}
         />
       </div>
     </div>

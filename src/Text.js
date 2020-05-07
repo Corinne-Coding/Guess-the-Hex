@@ -10,13 +10,14 @@ function Text(props) {
     uppercase,
     mb,
     mt,
+    ml,
     numberLevels,
     level,
     setLevel
   } = props;
 
   return (
-    <div style={{ marginBottom: mb, marginTop: mt }}>
+    <div style={{ marginBottom: mb, marginTop: mt, marginLeft: ml }}>
       <span
         style={{
           textTransform: uppercase ? "uppercase" : null,
